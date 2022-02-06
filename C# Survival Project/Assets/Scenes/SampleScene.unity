@@ -309,6 +309,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9da8ec3d69c96a0439f75689f2673696, type: 3}
+  m_Script: {fileID: 11500000, guid: 92b4cba838fc09e43b6e60f3b5d28616, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  itemName: shotgun
+  itemIcon: {fileID: 0}
+  itemStrength: 47
