@@ -4,7 +4,9 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public int myPoint; 
+    public int myPoint;
+
+    public bool hasSaidMessage = false;
 
 
 
@@ -21,13 +23,15 @@ public class Player : MonoBehaviour
             
         {
             myPoint += 10;
-            Debug.Log(myPoint);
+            Debug.Log(myPoint); 
         }
-        else if (myPoint >= 50)
+        else if (myPoint >= 50 && hasSaidMessage == false)
 
         {
             Debug.Log("You are awesome!");
-        }
+            hasSaidMessage = true;
+        }   
     }
+
 
 }
