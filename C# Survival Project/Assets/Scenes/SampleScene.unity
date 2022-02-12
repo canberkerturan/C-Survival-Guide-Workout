@@ -243,10 +243,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 963194225}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 396b38b7268883347a2d888006c5a71c, type: 3}
+  m_Script: {fileID: 11500000, guid: 233050f21fda86e43b00dc3c61baa86c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  myPoint: 100
+  a: 80
+  b: 90
+  c: 70
+  d: 100
+  e: 35
+  result: 0
 --- !u!20 &963194227
 Camera:
   m_ObjectHideFlags: 0
